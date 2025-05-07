@@ -4,14 +4,13 @@ This project models human-like disambiguation of heteronyms (words spelled the s
 
 ## Project Structure
 
-- `updated_code.py`: Main Python script implementing the neural network model, data processing, and evaluation logic.
-- `Final_Heteronym_Dataset.csv`: The dataset containing heteronyms, contexts, and annotated labels.
-- `Cognitive Modeling of Heteronyms Using Neural Networks Report.docx`: Detailed project report describing methodology, experiments, and results.
+- `heteronym_code.py`: Main Python script implementing the neural network model, data processing, and evaluation logic.
+- `Heteronym_Dataset.csv`: The dataset containing heteronyms, contexts, and annotated labels.
 
 ## Setup
 
-1. **Clone the repository** (if hosted remotely) or download the source files.
-2. **Create a Conda environment** using the provided `environment.yml` file:
+1. Clone the repository or download the source files.
+2. Create a Conda environment using the provided `environment.yml` file:
 
 ```bash
 conda env create -f environment.yml
@@ -21,7 +20,7 @@ conda activate heteronym-model
 3. **Run the script**:
 
 ```bash
-python updated_code.py
+python heteronym_code.py
 ```
 
 ## Requirements
