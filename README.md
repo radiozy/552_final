@@ -33,10 +33,3 @@ All required packages are listed in `environment.yml`. Core dependencies include
 - transformers
 - numpy
 
-## Usage
-
-The script trains and evaluates a neural model for heteronym disambiguation. Make sure `Final_Heteronym_Dataset.csv` is in the same directory as the script.
-
-## License
-
-This project is for academic/research purposes.
